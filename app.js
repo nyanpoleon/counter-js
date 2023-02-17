@@ -4,11 +4,6 @@ document.getElementById("increase").addEventListener("click", function() {
     console.log(number);
     document.getElementById("num").textContent = number;
 
-    document.getElementById("reset").addEventListener("click", function() {
-        number = 0;
-        document.getElementById("num").textContent = number;
-        });
-
 });
 
 document.getElementById("decrease").addEventListener("click", function() {
@@ -16,3 +11,8 @@ document.getElementById("decrease").addEventListener("click", function() {
     console.log(number);
     document.getElementById("num").textContent = number;
 })
+
+document.getElementById("reset").addEventListener("click", function() {
+    number = 0;
+    document.getElementById("num").textContent = number;
+});
