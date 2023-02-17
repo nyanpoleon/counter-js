@@ -31,8 +31,9 @@ h1 {
 button {
     background: none;
     width: 200px;
-    color: #303032;
+    color: #456773;
     font-size: large;
     font-family: 'Caudex', serif;
     border-radius: 6px;
+    border: none;
 }
