@@ -19,5 +19,3 @@ function decrease() {
     document.getElementById("num").textContent = number;
 }
     
-document.getElementById("decrease").addEventListener("click", decrease);
-document.getElementById("increase").addEventListener("click", increase);
