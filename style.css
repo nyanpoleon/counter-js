@@ -1,3 +1,29 @@
-.background {
+@import url('https://fonts.googleapis.com/css2?family=Caudex:wght@700&display=swap');
+
+body,
+html {
+    height: 100%;
+}
+
+.all {
+    background-image: url("dream.jpg");
+    height: 100%;    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+}
+
+.class {
+    display: flex;
     
+}
+
+
+h1 {
+    margin: 0;
+    color: antiquewhite;
+    font-family: 'Caudex', serif;
+    font-size: 500px;
 }
