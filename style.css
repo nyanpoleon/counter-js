@@ -23,7 +23,7 @@ html {
 
 h1 {
     margin: 0;
-    color: #faebd7;
+    color: #f2dad0;
     font-family: 'Caudex', serif;
     font-size: 500px;
 }
@@ -31,7 +31,8 @@ h1 {
 button {
     background: none;
     width: 200px;
-    color: #000000;
+    color: #303032;
     font-size: large;
     font-family: 'Caudex', serif;
+    border-radius: 6px;
 }
