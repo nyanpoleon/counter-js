@@ -37,3 +37,8 @@ button {
     border-radius: 6px;
     border: none;
 }
+
+button:hover {
+    transition: color 400ms;
+    color:#99B0A0;
+}
